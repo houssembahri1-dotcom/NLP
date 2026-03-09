@@ -118,7 +118,6 @@ data = load_and_train()
 # -----------------------------------------------------------
 # SIDEBAR
 # -----------------------------------------------------------
-st.sidebar.image("https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/120px-ChatGPT_logo.svg.png", width=60)
 st.sidebar.title("📩 Spam Classifier")
 st.sidebar.markdown("---")
 
@@ -128,7 +127,7 @@ page = st.sidebar.radio(
 )
 
 st.sidebar.markdown("---")
-st.sidebar.markdown("**Cours Machine Learning**")
+st.sidebar.markdown("**Cours NLP**")
 st.sidebar.markdown("Aurélien Vannieuwenhuyze")
 st.sidebar.markdown("Université catholique de Lille")
 
@@ -137,7 +136,7 @@ st.sidebar.markdown("Université catholique de Lille")
 # -----------------------------------------------------------
 if page == "🏠 Accueil":
     st.title("📩 Classification Spam / Ham avec NLP")
-    st.markdown("### Use Case — Cours Machine Learning")
+    st.markdown("### Use Case — Cours NLP")
 
     st.markdown("---")
 
